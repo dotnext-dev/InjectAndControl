@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.WpfApp", "Samples.WpfApp\Samples.WpfApp.csproj", "{1F885317-1FFE-4EA2-BD26-C1DB06E7F53B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.WindowsFormsApp", "Samples.WindowsFormsApp\Samples.WindowsFormsApp.csproj", "{728DF5CC-8046-4AD1-B121-FEEBF821773C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBlockerApp", "EventBlockerApp\EventBlockerApp.csproj", "{FAB32652-420D-412B-BC18-CF4988EB3A57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interceptor.Wpf", "Interceptor.Wpf\Interceptor.Wpf.csproj", "{9734FD03-6180-4E2C-BB8A-40791552C303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interceptor.WindowsForms", "Interceptor.WindowsForms\Interceptor.WindowsForms.csproj", "{61C2085E-0B71-4AE1-983E-55B96554BDDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Injector.Common", "Injector.Common\Injector.Common.csproj", "{12C4BAC2-B125-4C4F-8993-51DDB24CF090}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F885317-1FFE-4EA2-BD26-C1DB06E7F53B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F885317-1FFE-4EA2-BD26-C1DB06E7F53B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F885317-1FFE-4EA2-BD26-C1DB06E7F53B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F885317-1FFE-4EA2-BD26-C1DB06E7F53B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{728DF5CC-8046-4AD1-B121-FEEBF821773C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{728DF5CC-8046-4AD1-B121-FEEBF821773C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{728DF5CC-8046-4AD1-B121-FEEBF821773C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{728DF5CC-8046-4AD1-B121-FEEBF821773C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAB32652-420D-412B-BC18-CF4988EB3A57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB32652-420D-412B-BC18-CF4988EB3A57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB32652-420D-412B-BC18-CF4988EB3A57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB32652-420D-412B-BC18-CF4988EB3A57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9734FD03-6180-4E2C-BB8A-40791552C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9734FD03-6180-4E2C-BB8A-40791552C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9734FD03-6180-4E2C-BB8A-40791552C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9734FD03-6180-4E2C-BB8A-40791552C303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C2085E-0B71-4AE1-983E-55B96554BDDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C2085E-0B71-4AE1-983E-55B96554BDDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C2085E-0B71-4AE1-983E-55B96554BDDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C2085E-0B71-4AE1-983E-55B96554BDDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C4BAC2-B125-4C4F-8993-51DDB24CF090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C4BAC2-B125-4C4F-8993-51DDB24CF090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C4BAC2-B125-4C4F-8993-51DDB24CF090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C4BAC2-B125-4C4F-8993-51DDB24CF090}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
