@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows;
+using System.Windows.Input;
 using System.Windows.Interop;
 
 namespace Interceptor.Wpf
@@ -20,18 +22,28 @@ namespace Interceptor.Wpf
             {
                 case 0x201:
                     //left button down 
-                    handled = true;//(filter the message and don't let app process it)
+                    handled = IsInFourthQuadrant();//(filter the message and don't let app process it)
                     break;
                 case 0x202:
                     //left button up, ie. a click
                     break;
                 case 0x203:
                     //left button double click 
-                    handled = true; //(filter the message and don't let app process it)
+                    handled = IsInFourthQuadrant(); //(filter the message and don't let app process it)
                     break;
             }
 
             return IntPtr.Zero;
+        }
+
+        private static bool IsInFourthQuadrant()
+        {
+            var window = Application.Current.MainWindow;
+            var coords = Mouse.GetPosition(Application.Current.MainWindow);
+
+            var fourthQuadrant = new Rect(window.Width / 2, window.Height / 2, window.Width / 2, window.Height / 2);
+
+            return fourthQuadrant.Contains(coords);
         }
     }
 }
