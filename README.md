@@ -3,6 +3,7 @@ Sample app that highlights the ability to use hooking/inject and win-proc to con
 
 Uses binaries from https://github.com/cplotts/snoopwpf
 
+In reference to answer : https://stackoverflow.com/a/45453043/7292772
 
 | Project  | Description |
 | ------------- | ------------- |
